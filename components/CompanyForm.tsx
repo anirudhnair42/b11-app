@@ -99,7 +99,6 @@ const CompanyForm: FC = () => {
         logo: values.logo,
         locationId: locationId,
       });
-      window.location.reload();
       toast({
         description: "Company added successfully!",
       });
