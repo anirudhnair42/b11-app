@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_BACKEND_URL,
+  baseURL: "https://b11-api-57a95f225119.herokuapp.com/",
 });
 
 api.interceptors.request.use(
