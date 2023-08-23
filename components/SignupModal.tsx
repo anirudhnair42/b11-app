@@ -70,9 +70,9 @@ const SignupModal: FC = () => {
       localStorage.setItem("token", token);
 
       // Optionally, redirect the user to a dashboard or login page after successful registration
-      router.push("/dashboard");
+      router.push("/signin");
       toast({
-        description: "Login successful!",
+        description: "User registration successful! Please log in.",
       });
     } catch (error) {
       toast({
